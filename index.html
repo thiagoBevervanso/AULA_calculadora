@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+   <link rel="stylesheet" href="css/styles.css"> 
+  <form name="Calc">
+    <body>
+    <div id="folha">
+   <input type="text" id="input" placeholder="0" readonly>
+<br>
+<br>
+<input type="button" name="um" value="  1  " onClick="Calc.input.value+= ' 1 '">
+<input type="button" name="dois" value="  2  " onClick="Calc.input.value+= ' 2 '">
+<input type="button" name="tres" value="  3  " onClick="Calc.input.value+= ' 3 '">
+<input type="button" style="background-color:black; color: white;" name ="mais" value="  +  " onClick="Calc.input.value+= ' + '">
+<br>
+<br>
+<input type="button" name="quatro" value="  4  " onClick="Calc.input.value+= ' 4 '">
+<input type="button" name="cinco" value="  5  " onClick="Calc.input.value+= ' 5 '">
+<input type="button" name="seis" value="  6  " onClick="Calc.input.value+= ' 6 '">
+<input type="button" style="background-color:black; color: white;" name="menos" value="  -  " onClick="Calc.input.value+= ' - '">
+<br>
+<br>
+<input type="button" name="sete" value="  7  " onClick="Calc.input.value+= ' 7 '"> 
+<input type="button" name="oito" value="  8  " onClick="Calc.input.value+= ' 8 '">
+<input type="button" name="nove" value="  9  " onClick="Calc.input.value+= ' 9 '">
+<input type="button" style="background-color:black; color: white;" name="multiplicação" value="  x  " onClick="Calc.input.value+= ' * '">
+    <br>
+    <br>
+<input type="button"style="background-color: red; color: white;" name="clear" value="  C  " onClick="Calc.input.value = ''">
+<input type="button" name="zero" value="  0  " onClick="Calc.input.value+= ' 0 '">
+<input type="button" style="background-color:black; color: white;" name="calcula" value="  =  " onClick="Calc.input.value =eval(Calc.input.value)">
+<input type="button" style="background-color:black; color: white;" name="div" value="  /  " onClick="Calc.input.value+= ' / '">
+
+
+ </div>
+  </body>
+
+</form>
+</html>
